@@ -114,7 +114,7 @@ thead > tr > th {
 }
 
 @media (min-width: 1200px) {
-  .main-content nav, #gs {
+  .main-content nav {
     display: block;
   }
 }
