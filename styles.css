@@ -1,0 +1,143 @@
+nav {
+  height: 5vh;
+  font-size: 1.5em;
+}
+
+body {
+  max-width: 1440px;
+}
+
+i {
+  margin-top: 0.65em;
+  margin-left: 1em;
+}
+
+tbody {
+  width: 50vh;
+}
+
+footer {
+  width: 100%;
+  margin-top: 3.5em;
+  padding-bottom: 2em;
+}
+
+nav.container-fluid {
+  width: fit-content;
+}
+
+table.table-fit {
+  table-layout: auto;
+}
+
+th[scope="row"]{
+  font-weight: normal;
+}
+
+table.table-fit thead th, table.table-fit tfoot th, table.table-fit tbody td,
+table.table-fit tfoot td, table.table-fit {
+  width: auto;
+}
+
+h1, h2 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 > a, h2 > a {
+  cursor: default;
+}
+
+h1 span:hover, h2 span:hover, .main-content > nav > p:hover {
+  cursor: pointer;
+}
+
+main nav {
+ position: sticky;
+ top: 0;
+ padding-top: 4em;
+ height: 5em;
+}
+
+.main-content nav > p > a, .nav-btn:hover, .nav-btn:focus, #home-btn:hover, #home-btn:focus, #tutor-btn:hover, #tutor-btn:focus, #resume-btn:hover, i:hover, i:focus {
+  color: #e8e8e88c;
+}
+
+html, body, i {
+  height: 100%;
+}
+
+.main-content > nav > p:hover, .main-content nav > p:hover > a {
+  color: white;
+}
+
+footer > address, footer > p {
+  display: inline;
+}
+
+i, body, .nav-item, #home-btn, #tutor-btn, #resume-btn, nav > p > a, h1 > a, h1 > a:hover, h2 > a, h2 > a:hover,
+th, td {
+  color: #E8E8E8;
+}
+
+.intro, .subtitle, .intro p, tr > th:first-child {
+  width: max-content;
+}
+
+body, .nav-item, #home-btn, #tutor-btn, #resume-btn, nav > p > a, h1 > a, h1 > a:hover, h2 > a, h2 > a:hover,
+th, td, .main-content nav > p > a, .nav-btn:hover, .nav-btn:focus, #home-btn:hover, #home-btn:focus, #tutor-btn:hover, #tutor-btn:focus, #resume-btn:hover, i:hover, i:focus {
+  background-color: #202020;
+}
+
+body, .nav-item, #home-btn, #tutor-btn, #resume-btn, nav > p > a, h1 > a, h1 > a:hover, h2 > a, h2 > a:hover,
+th, td {
+  text-decoration: none;
+}
+
+thead > tr > th {
+  text-decoration: underline;
+}
+
+.intro p:first-child {
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+.intro p:first-child, .subtitle {
+  font-size: 2em
+}
+
+@media (min-width: 992px) {
+  .intro p:first-child {
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-content nav, #gs {
+    display: block;
+  }
+}
+
+
+.nav-item {
+  margin-right: 1em;
+}
+
+.icn {
+  color: transparent;
+}
+
+#me {
+  width: 30%;
+  border-radius: 0.5em;
+}
+
+#home-btn {
+  border-left: 8px solid #0d6efd;
+  height: fit-content;
+}
+
+.hidden {
+  display: none;
+}
