@@ -103,9 +103,9 @@
       <div class="d-flex flex-column flex-md-row">
         <img id="me" src="dmitriy-shepelev.png" alt="Portrait of Dmitriy Shepelev" width="540" height="540" class="mb-3 mb-md-0 mx-auto">
         <div class="bio mb-3 mb-md-0 mx-3">
-          <p>I'm an AI tooling engineer at Microsoft on the <span class="text-nowrap">CoreAI</span> team. I build agentic developer workflows, <abbr title="Model Context Protocol">MCP</abbr> servers, code-intelligence pipelines, and build infrastructure for engineering Copilots.</p>
-          <p>I earned a B.S. in Computer Science at the University of Washington, where I also worked as an undergraduate research assistant with the PLSE Group. After that, I interned at Amazon Web Services.</p>
-          <p>For a fuller view of my work and experience, see my <a href="resume.pdf" target="_blank" rel="noopener" title="Dmitriy Shepelev's Résumé">résumé</a>.</p>
+          <p>I'm an AI tooling engineer at Microsoft, on the <span class="text-nowrap">CoreAI</span> team. I build agentic developer workflows, <abbr title="Model Context Protocol">MCP</abbr> servers, code-intelligence pipelines, and large-scale build infrastructure that power engineering Copilots across the company.</p>
+          <p>Previously I was a Software Development Engineer Intern at Amazon Web Services and an undergraduate research assistant at the University of Washington PLSE Group, where I earned a B.S. in Computer Science.</p>
+          <p>For the full picture of my work and experience, see my <a href="resume.pdf" target="_blank" rel="noopener" title="Dmitriy Shepelev's Résumé">résumé</a>.</p>
         </div>
       </div>
     </div>
