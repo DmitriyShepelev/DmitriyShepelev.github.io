@@ -56,34 +56,6 @@ nav.container-fluid {
   gap: 0;
 }
 
-nav .nav-link,
-nav #home-btn,
-nav #resume-btn {
-  color: var(--fg);
-  background-color: transparent;
-  text-decoration: none;
-  padding: 0.25rem 0;
-  font-size: 1rem;
-  transition: color var(--transition);
-}
-
-nav #home-btn {
-  border-left: 3px solid var(--accent);
-  padding-left: 0.85rem;
-  margin-right: 1.25rem;
-}
-
-nav #resume-btn {
-  margin-right: auto;
-}
-
-nav .nav-link:hover, nav .nav-link:focus,
-nav #home-btn:hover, nav #home-btn:focus,
-nav #resume-btn:hover, nav #resume-btn:focus {
-  color: var(--accent);
-  background-color: transparent;
-}
-
 nav a > i {
   color: var(--fg-muted);
   background-color: transparent;
@@ -95,6 +67,10 @@ nav a > i {
 
 nav a:hover > i, nav a:focus > i {
   color: var(--accent);
+}
+
+nav a.ms-auto > i {
+  margin-left: 0;
 }
 
 /* ============================================================
